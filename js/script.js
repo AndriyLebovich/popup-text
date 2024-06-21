@@ -22,15 +22,3 @@ function readMore() {
 
 
 
-/*
-if (toggleBtn) {
-
-	tB.addEventListener( function readMore () {
-		hC.classList.toggle('show__content');
-	});
-
-}
-*/
-
-
-
