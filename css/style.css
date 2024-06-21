@@ -123,7 +123,7 @@ body {
 		opacity 0.5s ease-out,
 		transform 0.5s ease-out;
 }
-.hidden__content._show__content {
+.hidden__content._show {
 	opacity: 1;
 	transform: translateY(0);
 	transition:
@@ -131,6 +131,7 @@ body {
 		transform 0.5s ease-in;
 }
 button {
+	cursor: pointer;
 	background-color: #6d7bf8;
 	border: 0px;
 	border-radius: 5px;
@@ -138,5 +139,11 @@ button {
 	position: absolute;
 	right: 10px;
 	bottom: -25px;
+	width: 100px;
 	padding: 10px 20px;
+	transition: 0.3s;
+}
+
+button:hover {
+	transform: scale(1.2) translateX(8px);
 }
